@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "DeMaXiYaSummonerFactory.h"
+#import "NuoKeSaSiSummonerFactory.h"
+
 
 @interface ViewController ()
 
@@ -17,13 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    SummonerFactory *factory = [[DeMaXiYaSummonerFactory alloc] init];
+    Summoner *summoner = [factory packageSummoner:WarriorType name:@"德玛西亚之力"];
+    
+    NSLog(@"=================分割线=================");
+    
+    factory = [[NuoKeSaSiSummonerFactory alloc] init];
+    summoner = [factory packageSummoner:MagicType name:@"魔蛇之拥"];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

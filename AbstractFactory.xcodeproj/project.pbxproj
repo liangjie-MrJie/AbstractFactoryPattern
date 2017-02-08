@@ -13,6 +13,19 @@
 		DCC19D2D1E289F6700D6EDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC19D2B1E289F6700D6EDAB /* Main.storyboard */; };
 		DCC19D2F1E289F6700D6EDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC19D2E1E289F6700D6EDAB /* Assets.xcassets */; };
 		DCC19D321E289F6700D6EDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC19D301E289F6700D6EDAB /* LaunchScreen.storyboard */; };
+		DCC19D3F1E289F8800D6EDAB /* Assassin.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D3A1E289F8700D6EDAB /* Assassin.m */; };
+		DCC19D401E289F8800D6EDAB /* Assist.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D3C1E289F8700D6EDAB /* Assist.m */; };
+		DCC19D411E289F8800D6EDAB /* DeMaXiYaSummonerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D3E1E289F8700D6EDAB /* DeMaXiYaSummonerFactory.m */; };
+		DCC19D501E289F9300D6EDAB /* Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D431E289F9300D6EDAB /* Magic.m */; };
+		DCC19D511E289F9300D6EDAB /* NuoKeSaSiSummonerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D451E289F9300D6EDAB /* NuoKeSaSiSummonerFactory.m */; };
+		DCC19D521E289F9300D6EDAB /* Shooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D471E289F9300D6EDAB /* Shooter.m */; };
+		DCC19D531E289F9300D6EDAB /* Summoner.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D491E289F9300D6EDAB /* Summoner.m */; };
+		DCC19D541E289F9300D6EDAB /* SummonerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D4B1E289F9300D6EDAB /* SummonerFactory.m */; };
+		DCC19D551E289F9300D6EDAB /* Tank.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D4D1E289F9300D6EDAB /* Tank.m */; };
+		DCC19D561E289F9300D6EDAB /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D4F1E289F9300D6EDAB /* Warrior.m */; };
+		DCC19D621E28D20400D6EDAB /* InformationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D611E28D20400D6EDAB /* InformationFactory.m */; };
+		DCC19D651E28D23800D6EDAB /* NuoKeSaSiInformationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D641E28D23800D6EDAB /* NuoKeSaSiInformationFactory.m */; };
+		DCC19D681E28D25400D6EDAB /* DeMaXiYaInformationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC19D671E28D25400D6EDAB /* DeMaXiYaInformationFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,32 @@
 		DCC19D2E1E289F6700D6EDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC19D311E289F6700D6EDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC19D331E289F6700D6EDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC19D391E289F8700D6EDAB /* Assassin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assassin.h; sourceTree = "<group>"; };
+		DCC19D3A1E289F8700D6EDAB /* Assassin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assassin.m; sourceTree = "<group>"; };
+		DCC19D3B1E289F8700D6EDAB /* Assist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assist.h; sourceTree = "<group>"; };
+		DCC19D3C1E289F8700D6EDAB /* Assist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assist.m; sourceTree = "<group>"; };
+		DCC19D3D1E289F8700D6EDAB /* DeMaXiYaSummonerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeMaXiYaSummonerFactory.h; sourceTree = "<group>"; };
+		DCC19D3E1E289F8700D6EDAB /* DeMaXiYaSummonerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeMaXiYaSummonerFactory.m; sourceTree = "<group>"; };
+		DCC19D421E289F9300D6EDAB /* Magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic.h; sourceTree = "<group>"; };
+		DCC19D431E289F9300D6EDAB /* Magic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic.m; sourceTree = "<group>"; };
+		DCC19D441E289F9300D6EDAB /* NuoKeSaSiSummonerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuoKeSaSiSummonerFactory.h; sourceTree = "<group>"; };
+		DCC19D451E289F9300D6EDAB /* NuoKeSaSiSummonerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuoKeSaSiSummonerFactory.m; sourceTree = "<group>"; };
+		DCC19D461E289F9300D6EDAB /* Shooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shooter.h; sourceTree = "<group>"; };
+		DCC19D471E289F9300D6EDAB /* Shooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shooter.m; sourceTree = "<group>"; };
+		DCC19D481E289F9300D6EDAB /* Summoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Summoner.h; sourceTree = "<group>"; };
+		DCC19D491E289F9300D6EDAB /* Summoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Summoner.m; sourceTree = "<group>"; };
+		DCC19D4A1E289F9300D6EDAB /* SummonerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummonerFactory.h; sourceTree = "<group>"; };
+		DCC19D4B1E289F9300D6EDAB /* SummonerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummonerFactory.m; sourceTree = "<group>"; };
+		DCC19D4C1E289F9300D6EDAB /* Tank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tank.h; sourceTree = "<group>"; };
+		DCC19D4D1E289F9300D6EDAB /* Tank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tank.m; sourceTree = "<group>"; };
+		DCC19D4E1E289F9300D6EDAB /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		DCC19D4F1E289F9300D6EDAB /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		DCC19D601E28D20400D6EDAB /* InformationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationFactory.h; sourceTree = "<group>"; };
+		DCC19D611E28D20400D6EDAB /* InformationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationFactory.m; sourceTree = "<group>"; };
+		DCC19D631E28D23800D6EDAB /* NuoKeSaSiInformationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuoKeSaSiInformationFactory.h; sourceTree = "<group>"; };
+		DCC19D641E28D23800D6EDAB /* NuoKeSaSiInformationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuoKeSaSiInformationFactory.m; sourceTree = "<group>"; };
+		DCC19D661E28D25400D6EDAB /* DeMaXiYaInformationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeMaXiYaInformationFactory.h; sourceTree = "<group>"; };
+		DCC19D671E28D25400D6EDAB /* DeMaXiYaInformationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeMaXiYaInformationFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +81,9 @@
 		DCC19D161E289F6700D6EDAB = {
 			isa = PBXGroup;
 			children = (
+				DCD4329B1E4AF74300178CED /* 抽象工厂类 */,
+				DCD4329C1E4AF76F00178CED /* 召唤师工厂类 */,
+				DCD4329D1E4AF86700178CED /* 召唤师类 */,
 				DCC19D211E289F6700D6EDAB /* AbstractFactory */,
 				DCC19D201E289F6700D6EDAB /* Products */,
 			);
@@ -77,6 +119,53 @@
 				DCC19D231E289F6700D6EDAB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD4329B1E4AF74300178CED /* 抽象工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				DCC19D661E28D25400D6EDAB /* DeMaXiYaInformationFactory.h */,
+				DCC19D671E28D25400D6EDAB /* DeMaXiYaInformationFactory.m */,
+				DCC19D631E28D23800D6EDAB /* NuoKeSaSiInformationFactory.h */,
+				DCC19D641E28D23800D6EDAB /* NuoKeSaSiInformationFactory.m */,
+				DCC19D601E28D20400D6EDAB /* InformationFactory.h */,
+				DCC19D611E28D20400D6EDAB /* InformationFactory.m */,
+			);
+			name = "抽象工厂类";
+			sourceTree = "<group>";
+		};
+		DCD4329C1E4AF76F00178CED /* 召唤师工厂类 */ = {
+			isa = PBXGroup;
+			children = (
+				DCC19D3D1E289F8700D6EDAB /* DeMaXiYaSummonerFactory.h */,
+				DCC19D3E1E289F8700D6EDAB /* DeMaXiYaSummonerFactory.m */,
+				DCC19D441E289F9300D6EDAB /* NuoKeSaSiSummonerFactory.h */,
+				DCC19D451E289F9300D6EDAB /* NuoKeSaSiSummonerFactory.m */,
+				DCC19D4A1E289F9300D6EDAB /* SummonerFactory.h */,
+				DCC19D4B1E289F9300D6EDAB /* SummonerFactory.m */,
+			);
+			name = "召唤师工厂类";
+			sourceTree = "<group>";
+		};
+		DCD4329D1E4AF86700178CED /* 召唤师类 */ = {
+			isa = PBXGroup;
+			children = (
+				DCC19D391E289F8700D6EDAB /* Assassin.h */,
+				DCC19D3A1E289F8700D6EDAB /* Assassin.m */,
+				DCC19D3B1E289F8700D6EDAB /* Assist.h */,
+				DCC19D3C1E289F8700D6EDAB /* Assist.m */,
+				DCC19D421E289F9300D6EDAB /* Magic.h */,
+				DCC19D431E289F9300D6EDAB /* Magic.m */,
+				DCC19D461E289F9300D6EDAB /* Shooter.h */,
+				DCC19D471E289F9300D6EDAB /* Shooter.m */,
+				DCC19D4C1E289F9300D6EDAB /* Tank.h */,
+				DCC19D4D1E289F9300D6EDAB /* Tank.m */,
+				DCC19D4E1E289F9300D6EDAB /* Warrior.h */,
+				DCC19D4F1E289F9300D6EDAB /* Warrior.m */,
+				DCC19D481E289F9300D6EDAB /* Summoner.h */,
+				DCC19D491E289F9300D6EDAB /* Summoner.m */,
+			);
+			name = "召唤师类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC19D501E289F9300D6EDAB /* Magic.m in Sources */,
+				DCC19D531E289F9300D6EDAB /* Summoner.m in Sources */,
 				DCC19D2A1E289F6700D6EDAB /* ViewController.m in Sources */,
 				DCC19D271E289F6700D6EDAB /* AppDelegate.m in Sources */,
+				DCC19D651E28D23800D6EDAB /* NuoKeSaSiInformationFactory.m in Sources */,
+				DCC19D621E28D20400D6EDAB /* InformationFactory.m in Sources */,
+				DCC19D541E289F9300D6EDAB /* SummonerFactory.m in Sources */,
+				DCC19D3F1E289F8800D6EDAB /* Assassin.m in Sources */,
+				DCC19D681E28D25400D6EDAB /* DeMaXiYaInformationFactory.m in Sources */,
 				DCC19D241E289F6700D6EDAB /* main.m in Sources */,
+				DCC19D511E289F9300D6EDAB /* NuoKeSaSiSummonerFactory.m in Sources */,
+				DCC19D411E289F8800D6EDAB /* DeMaXiYaSummonerFactory.m in Sources */,
+				DCC19D401E289F8800D6EDAB /* Assist.m in Sources */,
+				DCC19D561E289F9300D6EDAB /* Warrior.m in Sources */,
+				DCC19D521E289F9300D6EDAB /* Shooter.m in Sources */,
+				DCC19D551E289F9300D6EDAB /* Tank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +414,7 @@
 				DCC19D381E289F6700D6EDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
