@@ -10,9 +10,9 @@
 
 @implementation InformationFactory
 - (NSString *)fetchIdentityDescribed {
-    return @"";
+    return nil;
 }
 - (NSString *)otherDescribed {
-    return @"";
+    return nil;
 }
 @end

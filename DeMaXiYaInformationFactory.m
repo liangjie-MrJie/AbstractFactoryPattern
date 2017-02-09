@@ -12,4 +12,7 @@
 - (NSString *)fetchIdentityDescribed {
     return @"属于德玛西亚势力范围";
 }
+- (NSString *)otherDescribed {
+    return @"";
+}
 @end
